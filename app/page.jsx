@@ -5,13 +5,29 @@ const whatsapp = "https://wa.me/5521964769172";
 export default function Page() {
   return (
     <main style={{ fontFamily: "Arial, sans-serif", margin: 0, color: "#0f172a" }}>
-      <section style={{ background: "#064e3b", color: "white", padding: "70px 25px", textAlign: "center" }}>
-        <h1 style={{ fontSize: 44, marginBottom: 15 }}>EGAD Contabilidade</h1>
-        <p style={{ fontSize: 22, maxWidth: 800, margin: "0 auto 30px" }}>
-          Contabilidade com cuidado, segurança e estratégia para sua empresa crescer.
-        </p>
-        <a href={whatsapp} target="_blank" style={botao}>Falar no WhatsApp</a>
-      </section>
+     <section style={{ background: "#000000", color: "white", padding: "70px 25px", textAlign: "center" }}>
+
+  <img src="/logo.jpg" style={{ width: 180, marginBottom: 20 }} />
+
+  <h1 style={{ fontSize: 42, marginBottom: 10, color: "#d4af37" }}>
+    EGAD Contabilidade
+  </h1>
+
+  <p style={{ fontSize: 20, maxWidth: 700, margin: "0 auto 30px", color: "#e5e7eb" }}>
+    Contabilidade com estratégia, segurança e crescimento para sua empresa.
+  </p>
+
+  <a href={whatsapp} target="_blank" style={{
+    background: "#b91c1c",
+    color: "white",
+    padding: "14px 26px",
+    borderRadius: 12,
+    textDecoration: "none",
+    fontWeight: "bold"
+  }}>
+    Falar no WhatsApp
+  </a>
+</section>
 
       <section style={secao}>
         <h2 style={titulo}>Especialidades da EGAD</h2>
