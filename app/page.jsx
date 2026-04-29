@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { motion } from "framer-motion";
+
 import { Calculator, CheckCircle, MessageCircle, ShieldCheck, Users, FileText, TrendingUp, Mail, Phone, Facebook, Instagram, Linkedin } from "lucide-react";
 
 const WHATSAPP_NUMBER = "5521964769172";
@@ -88,7 +88,7 @@ export default function EgadContabilidadeSite() {
           <div className="absolute -bottom-28 right-0 h-96 w-96 rounded-full bg-emerald-300 blur-3xl" />
         </div>
         <div className="relative mx-auto grid max-w-7xl items-center gap-12 px-4 py-20 sm:px-6 lg:grid-cols-2 lg:px-8 lg:py-28">
-          <motion.div initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
+          <div initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
             <span className="inline-flex rounded-full border border-white/20 bg-white/10 px-4 py-2 text-sm font-semibold backdrop-blur">
               Contabilidade com cuidado, estratégia e confiança
             </span>
@@ -109,7 +109,7 @@ export default function EgadContabilidadeSite() {
               <span className="flex items-center gap-2"><CheckCircle size={18} /> Suporte pelo WhatsApp</span>
               <span className="flex items-center gap-2"><CheckCircle size={18} /> Segurança fiscal</span>
             </div>
-          </motion.div>
+          </div>
 
           <motion.div initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.7 }} className="rounded-[2rem] border border-white/15 bg-white/10 p-6 shadow-2xl backdrop-blur">
             <div className="rounded-[1.5rem] bg-white p-6 text-slate-900 shadow-xl">
@@ -126,7 +126,7 @@ export default function EgadContabilidadeSite() {
               </div>
               <WhatsAppButton className="mt-6 w-full">Quero uma análise</WhatsAppButton>
             </div>
-          </motion.div>
+          </div>
         </div>
       </section>
 
