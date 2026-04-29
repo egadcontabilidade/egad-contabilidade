@@ -13,14 +13,14 @@ export default function Page() {
 }}>
 
   <img 
-    src="/logo.jpg" 
-    style={{ 
-      width: "100%", 
-      maxWidth: 650, 
-      margin: "0 auto 30px",
-      display: "block"
-    }} 
-  />
+  src="/logo.jpg" 
+  style={{ 
+    width: "100%", 
+    maxWidth: 750, 
+    margin: "0 auto 40px",
+    display: "block"
+  }} 
+/>
 
   <h1 style={{ 
     fontSize: 44, 
