@@ -7,12 +7,13 @@ export default function Page() {
     <main style={{ fontFamily: "Arial, sans-serif", margin: 0, color: "#0f172a" }}>
      <section style={{ background: "#111827", color: "#f9fafb", padding: "70px 25px", textAlign: "center" }}>
 
-  <img 
+ <img 
   src="/logo.jpg" 
   style={{ 
     width: "100%", 
-    maxWidth: 500, 
-    marginBottom: 20 
+    maxWidth: 600, 
+    margin: "0 auto 20px",
+    display: "block"
   }} 
 />
 
