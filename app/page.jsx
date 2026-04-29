@@ -5,7 +5,7 @@ const whatsapp = "https://wa.me/5521964769172";
 export default function Page() {
   return (
     <main style={{ fontFamily: "Arial, sans-serif", margin: 0, color: "#0f172a" }}>
-     <section style={{ background: "#000000", color: "white", padding: "70px 25px", textAlign: "center" }}>
+     <section style={{ background: "#111827", color: "#f9fafb", padding: "70px 25px", textAlign: "center" }}>
 
   <img src="/logo.jpg" style={{ width: 180, marginBottom: 20 }} />
 
@@ -77,7 +77,7 @@ export default function Page() {
 function Card({ titulo, texto }) {
   return (
     <div style={card}>
-      <h3 style={{ fontSize: 22, color: "#047857" }}>{titulo}</h3>
+      <h3 style={{ fontSize: 22, color: "#d4af37" }}>{titulo}</h3>
       <p style={{ fontSize: 16, lineHeight: 1.6 }}>{texto}</p>
       <a href={whatsapp} target="_blank" style={botaoPequeno}>Quero saber mais</a>
     </div>
@@ -123,7 +123,7 @@ const botao = {
 const botaoPequeno = {
   display: "inline-block",
   marginTop: 12,
-  background: "#047857",
+  background: "#b91c1c",
   color: "white",
   padding: "10px 16px",
   borderRadius: 10,
