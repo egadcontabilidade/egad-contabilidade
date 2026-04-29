@@ -7,7 +7,14 @@ export default function Page() {
     <main style={{ fontFamily: "Arial, sans-serif", margin: 0, color: "#0f172a" }}>
      <section style={{ background: "#111827", color: "#f9fafb", padding: "70px 25px", textAlign: "center" }}>
 
-  <img src="/logo.jpg" style={{ width: 180, marginBottom: 20 }} />
+  <img 
+  src="/logo.jpg" 
+  style={{ 
+    width: "100%", 
+    maxWidth: 500, 
+    marginBottom: 20 
+  }} 
+/>
 
   <h1 style={{ fontSize: 42, marginBottom: 10, color: "#d4af37" }}>
     EGAD Contabilidade
