@@ -146,7 +146,7 @@ export default function EgadContabilidadeSite() {
                 <CheckCircle className="text-emerald-600" size={32} />
                 <h3 className="mt-4 text-xl font-black">{item.title}</h3>
                 <p className="mt-2 text-slate-600">{item.text}</p>
-                <WhatsAppButton className="mt-5 w-full px-4 py-2 text-sm">Quero saber mais</WhatsAppButton>
+                <WhatsAppButton className="mt-6 w-full px-4 py-2 text-sm">Quero uma análise</WhatsAppButton>
               </div>
             ))}
           </div>
