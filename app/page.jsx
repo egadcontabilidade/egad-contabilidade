@@ -5,36 +5,58 @@ const whatsapp = "https://wa.me/5521964769172";
 export default function Page() {
   return (
     <main style={{ fontFamily: "Arial, sans-serif", margin: 0, color: "#0f172a" }}>
-     <section style={{ background: "#111827", color: "#f9fafb", padding: "70px 25px", textAlign: "center" }}>
+     <section style={{
+  background: "linear-gradient(135deg, #000000, #111827)",
+  color: "white",
+  padding: "90px 25px",
+  textAlign: "center"
+}}>
 
- <img 
-  src="/logo.jpg" 
-  style={{ 
-    width: "100%", 
-    maxWidth: 600, 
-    margin: "0 auto 20px",
-    display: "block"
-  }} 
-/>
+  <img 
+    src="/logo.jpg" 
+    style={{ 
+      width: "100%", 
+      maxWidth: 650, 
+      margin: "0 auto 30px",
+      display: "block"
+    }} 
+  />
 
-  <h1 style={{ fontSize: 42, marginBottom: 10, color: "#d4af37" }}>
-    EGAD Contabilidade
+  <h1 style={{ 
+    fontSize: 44, 
+    marginBottom: 10, 
+    color: "#d4af37",
+    fontWeight: "bold",
+    letterSpacing: 1
+  }}>
+    Contabilidade estratégica para crescimento empresarial
   </h1>
 
-  <p style={{ fontSize: 20, maxWidth: 700, margin: "0 auto 30px", color: "#e5e7eb" }}>
-    Contabilidade com estratégia, segurança e crescimento para sua empresa.
+  <p style={{ 
+    fontSize: 20, 
+    maxWidth: 700, 
+    margin: "0 auto 40px", 
+    color: "#e5e7eb",
+    lineHeight: 1.6
+  }}>
+    A EGAD Contabilidade oferece soluções completas em abertura, legalização,
+    regularização e gestão contábil com foco em segurança e crescimento.
   </p>
 
   <a href={whatsapp} target="_blank" style={{
-    background: "#b91c1c",
+    background: "linear-gradient(135deg, #b91c1c, #7f1d1d)",
     color: "white",
-    padding: "14px 26px",
-    borderRadius: 12,
+    padding: "16px 32px",
+    borderRadius: 14,
     textDecoration: "none",
-    fontWeight: "bold"
+    fontWeight: "bold",
+    fontSize: 16,
+    boxShadow: "0 8px 25px rgba(0,0,0,0.4)",
+    transition: "0.3s"
   }}>
-    Falar no WhatsApp
+    Falar com um especialista
   </a>
+
 </section>
 
       <section style={secao}>
