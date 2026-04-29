@@ -22,7 +22,24 @@ export default function Page() {
   }} 
 />
 
-  <h1 style={{ 
+  <a href={whatsapp} target="_blank" style={{
+    background: "linear-gradient(135deg, #b91c1c, #7f1d1d)",
+    color: "white",
+    padding: "16px 32px",
+    borderRadius: 14,
+    textDecoration: "none",
+    fontWeight: "bold",
+    fontSize: 16,
+    boxShadow: "0 8px 25px rgba(0,0,0,0.4)",
+    transition: "0.3s"
+  }}>
+    Falar com um especialista
+  </a>
+
+</section>
+
+      <section style={secao}>
+        <h1 style={{ 
     fontSize: 44, 
     marginBottom: 10, 
     color: "#d4af37",
@@ -42,25 +59,6 @@ export default function Page() {
     A EGAD Contabilidade oferece soluções completas em abertura, legalização,
     regularização e gestão contábil com foco em segurança e crescimento.
   </p>
-
-  <a href={whatsapp} target="_blank" style={{
-    background: "linear-gradient(135deg, #b91c1c, #7f1d1d)",
-    color: "white",
-    padding: "16px 32px",
-    borderRadius: 14,
-    textDecoration: "none",
-    fontWeight: "bold",
-    fontSize: 16,
-    boxShadow: "0 8px 25px rgba(0,0,0,0.4)",
-    transition: "0.3s"
-  }}>
-    Falar com um especialista
-  </a>
-
-</section>
-
-      <section style={secao}>
-        <h2 style={titulo}>Especialidades da EGAD</h2>
         <div style={grid}>
           <Card titulo="Abertura de Empresas" texto="Formalize sua empresa do jeito certo, com orientação completa desde o início." />
           <Card titulo="Legalização de Empresas" texto="Regularização de cadastros, alterações e processos junto aos órgãos competentes." />
